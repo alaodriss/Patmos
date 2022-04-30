@@ -51,19 +51,19 @@ li .login {
 /******************** Fonts ***************************/
 @font-face {
   font-family: myFirstFont;
-  src: url(/fonts/EuclidTriangle-Regular.otf);
+  src: url(fonts/EuclidTriangle-Regular.otf);
 }
 @font-face {
   font-family: Semibold;
-  src: url(/fonts/EuclidTriangle-Semibold.otf);
+  src: url(fonts/EuclidTriangle-Semibold.otf);
 }
 @font-face {
   font-family: Light;
-  src: url(/fonts/EuclidTriangle-Light.otf);
+  src: url(fonts/EuclidTriangle-Light.otf);
 }
 @font-face {
   font-family: bolde;
-  src: url(/fonts/MyriadPro-Bold.otf);
+  src: url(fonts/MyriadPro-Bold.otf);
 }
 .slider {
   display: flex;
