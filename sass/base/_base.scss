@@ -12,41 +12,4 @@ body{
     
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 40px 150px;
-}
 
-nav{
-    margin-right: 150px;
-    ul{
-        display: flex;
-        justify-content: space-between;
-       /* align-items: center;*/
-        
-    }
-}
-
-ul li {
-    padding: 0 20px;
-    a {
-        font-family: Semibold;
-        color:rgb(0, 58, 93);
-        cursor: pointer;
-        transition: transform .2s;
-        i {
-            padding-right: 10px;
-        }
-    }
-   
-}
-
-
- li .login {
-    color: rgb(0, 58, 93);
-    border: 2px solid rgb(0, 58, 93);
-    padding: 10px 30px;
-    border-radius: 50px;
-}
