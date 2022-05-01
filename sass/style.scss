@@ -15,7 +15,7 @@
 
 
 @import "./pages/work";
-@import "./pages/about";
+@import "./pages/mobile";
 @import "./pages/project";
 
 
@@ -29,11 +29,12 @@
 }
 .bg-info{
     background-color: #f6fbfe;
-    padding: 60px 180px;
+    padding: 0px 180px;
+
 }
 
 .bloc_one img{
-    padding: 117px 51px;
+    padding: 60px 51px;
 }
 .description{
     background-color: #f6fbfe;
@@ -106,9 +107,9 @@
 h1 {
     font-size: 70px;
     font-family: Light;
-    text-align: center;
+    
     color:rgb(0, 58, 93);
-    margin: 52px 0;
+
 
 }
 .tlile_pricing{

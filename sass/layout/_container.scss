@@ -28,7 +28,7 @@
 
 
 #reliability{    
-    margin-left: -190px;
+    margin-left: -6px;
 
 }
 
@@ -58,10 +58,8 @@
 .info{
     font-family: Light;
     line-height: 1.8;
-    padding: 90px 0;
-    .info p{
-        font-size: 20px;
-    }
+    padding: 60px 0;
+ 
     .info h1 {
         color:rgb(0, 58, 93);
         margin: 0 0 0 422px;
@@ -69,3 +67,41 @@
         font-family: Light;
     }
 }
+.info p{
+    font-size: 20px;
+}
+
+.icon{
+    padding: 99px 63px;
+}
+
+.price{
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+/*.i-1 {
+   margin-top: 20px;
+    font-size: xx-large;
+    color:rgb(0, 58, 93);
+
+}
+
+.i-2 {
+    
+    position: absolute;
+    top: 965%;
+    padding-left: 81px;
+    font-size: xx-large;
+    color:rgb(0, 58, 93);
+}
+
+.i-3 {
+    
+    position: absolute;
+    top: 965%;
+    padding-left: 61px;
+    font-size: xx-large;
+    color:rgb(0, 58, 93);
+}*/

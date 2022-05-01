@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -12,11 +13,70 @@ body {
   max-width: 1600px;
 }
 
+/******************** Fonts ***************************/
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/EuclidTriangle-Regular.otf);
+}
+@font-face {
+  font-family: Semibold;
+  src: url(fonts/EuclidTriangle-Semibold.otf);
+}
+@font-face {
+  font-family: Light;
+  src: url(fonts/EuclidTriangle-Light.otf);
+}
+@font-face {
+  font-family: bolde;
+  src: url(fonts/MyriadPro-Bold.otf);
+}
+.btn_select {
+  border: none;
+  padding: 21px;
+  background-color: rgb(101, 178, 232);
+  border-radius: 50px;
+  color: #fff;
+  width: 250px;
+  font-family: Semibold;
+  font-size: 23px;
+  margin: 33px 43px;
+  width: 273px;
+}
+
+.btn_select:hover {
+  background-color: rgb(0, 58, 93);
+  color: #fff;
+  cursor: pointer;
+}
+
+.more_infos .btn {
+  border: none;
+  padding: 20px;
+  background-color: rgb(101, 178, 232);
+  border-radius: 50px;
+  color: #fff;
+  width: 250px;
+  font-family: Semibold;
+  font-size: 23px;
+  margin-top: 2%;
+  margin-left: 41%;
+}
+
+.more_infos .btn:hover {
+  background-color: #fff;
+  color: rgb(101, 178, 232);
+  cursor: pointer;
+}
+
+.logo {
+  margin-left: 49px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px 150px;
+  margin: 40px 65px;
 }
 
 nav {
@@ -48,23 +108,6 @@ li .login {
   border-radius: 50px;
 }
 
-/******************** Fonts ***************************/
-@font-face {
-  font-family: myFirstFont;
-  src: url(fonts/EuclidTriangle-Regular.otf);
-}
-@font-face {
-  font-family: Semibold;
-  src: url(fonts/EuclidTriangle-Semibold.otf);
-}
-@font-face {
-  font-family: Light;
-  src: url(fonts/EuclidTriangle-Light.otf);
-}
-@font-face {
-  font-family: bolde;
-  src: url(fonts/MyriadPro-Bold.otf);
-}
 .slider {
   display: flex;
   justify-content: space-between;
@@ -80,32 +123,30 @@ li .login {
   flex-direction: column;
   font-family: Light;
 }
-
-.ph1 {
+.title .ph1 {
   color: rgb(101, 178, 232);
   font-size: 70px;
   position: relative;
-  right: 18%;
+  right: 22%;
   top: 16%;
   z-index: 11;
 }
-
-.ph2 {
+.title .ph2 {
   color: rgb(0, 58, 93);
   font-size: 82px;
 }
 
 #reliability {
-  margin-left: -190px;
+  margin-left: -6px;
 }
 
 .part_one {
   background-color: rgb(0, 58, 93);
   color: #fff;
   width: 100%;
-  height: 550px;
+  height: 528px;
   font-size: 70px;
-  padding: 100px 150px;
+  padding: 86px 142px;
   font-family: Light;
 }
 
@@ -127,220 +168,52 @@ li .login {
 .info {
   font-family: Light;
   line-height: 1.8;
-  padding: 90px 0;
+  padding: 60px 0;
 }
-
-.info p {
-  font-size: 20px;
-}
-
-.info h1 {
+.info .info h1 {
   color: rgb(0, 58, 93);
   margin: 0 0 0 422px;
   font-size: 70px;
   font-family: Light;
 }
 
-.bloc_one {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 131px;
-  grid-row-gap: 1em;
-  /*margin: 96px 0;*/
-}
-
-.bg-info {
-  background-color: #f6fbfe;
-  padding: 60px 180px;
-}
-
-.bloc_one img {
-  padding: 117px 51px;
-}
-
-.description {
-  background-color: #f6fbfe;
-  width: 100%;
-  height: 675px;
-  font-size: 70px;
-  padding: 75px 150px;
-  font-family: Light;
-}
-
-.more_infos {
-  background-color: rgb(0, 58, 93);
-  width: 100%;
-  height: 330px;
-  color: #fff;
-  font-size: 32px;
-  font-family: myFirstFont;
-}
-
-.more_infos p {
-  padding-top: 70px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-.more_infos .btn {
-  border: none;
-  padding: 20px;
-  background-color: rgb(101, 178, 232);
-  border-radius: 50px;
-  color: #fff;
-  width: 250px;
-  font-family: Semibold;
-  font-size: 23px;
-  margin-top: 2%;
-  margin-left: 41%;
-}
-
-.more_infos .btn:hover {
-  background-color: #fff;
-  color: rgb(101, 178, 232);
-  cursor: pointer;
-}
-
-/************************************* Pricing ***********************************/
-.multi_offre {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 75px 143px;
-}
-
-.bar-hot {
-  width: 300px;
-  height: 61px;
-  background-color: rgb(0, 58, 93);
-  position: absolute;
-  padding: -6px;
-  margin-top: -46px;
-  margin-left: 30px;
-  margin-bottom: 48px;
-  z-index: -12;
-  border-top-left-radius: 10px 10px;
-  border-top-right-radius: 10px 10px;
-  color: #fff;
-  font-size: 22px;
-  font-family: bolde;
-  text-align: center;
-  line-height: 2;
-  letter-spacing: 3px;
-}
-
-.offre_one {
-  background: #fff;
-  height: 653px;
-  width: 360px;
-  border-radius: 0.8rem;
-  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
-}
-
-.shadaow {
-  background: #fff;
-  height: auto;
-  width: 360px;
-  border-radius: 0.8rem;
-  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  font-size: 70px;
-  font-family: Light;
-  text-align: center;
-  color: rgb(0, 58, 93);
-  margin: 52px 0;
-}
-
-.tlile_pricing {
-  font-size: 32px;
-  color: rgb(0, 58, 93);
-  font-family: myFirstFont;
-  text-align: center;
-  margin: 30px auto;
-}
-
-h2 {
-  color: rgb(0, 58, 93);
-  font-family: bolde;
-  font-size: 70px;
-  text-align: center;
-  padding: 15px 0;
-}
-
-h2 i {
-  font-size: 25px;
-  font-family: bolde;
-  padding-bottom: 15px;
-}
-
-.month {
+.info p {
   font-size: 20px;
-  font-family: bolde;
 }
 
-#dollar {
-  font-size: 22px;
-  font-family: myFirstFont;
-  color: rgb(73, 73, 73);
+.icon {
+  padding: 99px 63px;
+}
+
+.price {
   text-align: center;
+  padding: 50px 0;
 }
 
-#tage {
-  font-size: 21px;
-  font-family: myFirstFont;
-  color: rgb(73, 73, 73);
-  align-items: center;
-  left: 73%;
-  position: absolute;
+/*.i-1 {
+   margin-top: 20px;
+    font-size: xx-large;
+    color:rgb(0, 58, 93);
+
 }
 
-.btn_select {
-  border: none;
-  padding: 21px;
-  background-color: rgb(101, 178, 232);
-  border-radius: 50px;
-  color: #fff;
-  width: 250px;
-  font-family: Semibold;
-  font-size: 23px;
-  margin: 33px 43px;
-  width: 273px;
+.i-2 {
+
+    position: absolute;
+    top: 965%;
+    padding-left: 81px;
+    font-size: xx-large;
+    color:rgb(0, 58, 93);
 }
 
-.btn_select:hover {
-  background-color: rgb(0, 58, 93);
-  color: #fff;
-  cursor: pointer;
-}
+.i-3 {
 
-.detalis {
-  font-size: 17px;
-  font-family: myFirstFont;
-  line-height: 1.8;
-  color: rgb(73, 73, 73);
-  margin: 20px;
-}
-
-.liste {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  font-size: 17px;
-  font-family: myFirstFont;
-  line-height: 1.8;
-  color: rgb(73, 73, 73);
-  margin: 20px;
-}
-
-.liste li i {
-  align-items: start;
-  padding: 8px 0;
-  font-size: 17px;
-  color: rgb(0, 58, 93);
-}
-
+    position: absolute;
+    top: 965%;
+    padding-left: 61px;
+    font-size: xx-large;
+    color:rgb(0, 58, 93);
+}*/
 /************************************* footer ***********************************/
 .footer_infos {
   height: 300px;
@@ -400,6 +273,169 @@ hr {
   padding: 23px 180px;
   opacity: 0.5;
   text-align: start;
+}
+
+@media screen and (max-width: 1280px) {
+  /* Rédigez vos propriétés CSS ici */
+}
+.bloc_one {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 131px;
+  grid-row-gap: 1em;
+  /*margin: 96px 0;*/
+}
+
+.bg-info {
+  background-color: #f6fbfe;
+  padding: 0px 180px;
+}
+
+.bloc_one img {
+  padding: 60px 51px;
+}
+
+.description {
+  background-color: #f6fbfe;
+  width: 100%;
+  height: 675px;
+  font-size: 70px;
+  padding: 75px 150px;
+  font-family: Light;
+}
+
+.more_infos {
+  background-color: rgb(0, 58, 93);
+  width: 100%;
+  height: 330px;
+  color: #fff;
+  font-size: 32px;
+  font-family: myFirstFont;
+}
+
+.more_infos p {
+  padding-top: 70px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/************************************* Pricing ***********************************/
+.multi_offre {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 75px 143px;
+}
+
+.bar-hot {
+  width: 300px;
+  height: 61px;
+  background-color: rgb(0, 58, 93);
+  position: absolute;
+  padding: -6px;
+  margin-top: -46px;
+  margin-left: 30px;
+  margin-bottom: 48px;
+  z-index: -12;
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+  color: #fff;
+  font-size: 22px;
+  font-family: bolde;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 3px;
+}
+
+.offre_one {
+  background: #fff;
+  height: 653px;
+  width: 360px;
+  border-radius: 0.8rem;
+  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.shadaow {
+  background: #fff;
+  height: auto;
+  width: 360px;
+  border-radius: 0.8rem;
+  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 70px;
+  font-family: Light;
+  color: rgb(0, 58, 93);
+}
+
+.tlile_pricing {
+  font-size: 32px;
+  color: rgb(0, 58, 93);
+  font-family: myFirstFont;
+  text-align: center;
+  margin: 30px auto;
+}
+
+h2 {
+  color: rgb(0, 58, 93);
+  font-family: bolde;
+  font-size: 70px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+h2 i {
+  font-size: 25px;
+  font-family: bolde;
+  padding-bottom: 15px;
+}
+
+.month {
+  font-size: 20px;
+  font-family: bolde;
+}
+
+#dollar {
+  font-size: 22px;
+  font-family: myFirstFont;
+  color: rgb(73, 73, 73);
+  text-align: center;
+}
+
+#tage {
+  font-size: 21px;
+  font-family: myFirstFont;
+  color: rgb(73, 73, 73);
+  align-items: center;
+  left: 73%;
+  position: absolute;
+}
+
+.detalis {
+  font-size: 17px;
+  font-family: myFirstFont;
+  line-height: 1.8;
+  color: rgb(73, 73, 73);
+  margin: 20px;
+}
+
+.liste {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 17px;
+  font-family: myFirstFont;
+  line-height: 1.8;
+  color: rgb(73, 73, 73);
+  margin: 20px;
+}
+
+.liste li i {
+  align-items: start;
+  padding: 8px 0;
+  font-size: 17px;
+  color: rgb(0, 58, 93);
 }
 
 /*# sourceMappingURL=style.css.map */
