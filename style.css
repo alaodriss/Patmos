@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -88,17 +87,17 @@ nav ul {
   /* align-items: center;*/
 }
 
-ul li {
+.top-bar li {
   padding: 0 20px;
 }
-ul li a {
+.top-bar li a {
   font-family: Semibold;
   color: rgb(0, 58, 93);
   cursor: pointer;
   transition: transform 0.2s;
 }
-ul li a i {
-  padding-right: 10px;
+.top-bar li a i {
+  padding-right: 19px;
 }
 
 li .login {
@@ -144,9 +143,9 @@ li .login {
   background-color: rgb(0, 58, 93);
   color: #fff;
   width: 100%;
-  height: 528px;
-  font-size: 70px;
-  padding: 86px 142px;
+  height: 490px;
+  font-size: 68px;
+  padding: 46px 142px;
   font-family: Light;
 }
 
@@ -160,7 +159,7 @@ li .login {
   width: 100%;
   height: 321px;
   font-size: 22px;
-  padding: 72px 94px 0px 150px;
+  padding: 44px 80px 28px 150px;
   line-height: 1.5;
   font-family: Light;
 }
@@ -190,30 +189,6 @@ li .login {
   padding: 50px 0;
 }
 
-/*.i-1 {
-   margin-top: 20px;
-    font-size: xx-large;
-    color:rgb(0, 58, 93);
-
-}
-
-.i-2 {
-
-    position: absolute;
-    top: 965%;
-    padding-left: 81px;
-    font-size: xx-large;
-    color:rgb(0, 58, 93);
-}
-
-.i-3 {
-
-    position: absolute;
-    top: 965%;
-    padding-left: 61px;
-    font-size: xx-large;
-    color:rgb(0, 58, 93);
-}*/
 /************************************* footer ***********************************/
 .footer_infos {
   height: 300px;
@@ -275,8 +250,227 @@ hr {
   text-align: start;
 }
 
-@media screen and (max-width: 1280px) {
-  /* Rédigez vos propriétés CSS ici */
+@media screen and (max-width: 1024px) {
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .login i {
+    display: none;
+  }
+
+  li .login {
+    color: rgb(0, 58, 93);
+    border: none;
+    padding: none;
+    border-radius: none;
+  }
+
+  .slider {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    margin: 19px 326px;
+  }
+
+  .part_one {
+    background-color: rgb(0, 58, 93);
+    color: #fff;
+    width: 100%;
+    height: 319px;
+    font-size: 37px;
+    padding: 69px 139px;
+    font-family: Light;
+  }
+
+  #description {
+    background-color: #f6fbfe;
+    width: 100%;
+    height: 372px;
+    font-size: 38px;
+    padding: 32px 150px;
+    font-family: Light;
+  }
+
+  #bg-info {
+    background-color: #f6fbfe;
+    padding: 0px 18px;
+  }
+
+  #bloc_one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 1em;
+    margin: 6px 37px;
+  }
+
+  .cadr {
+    margin: 20px;
+  }
+
+  .navBar {
+    padding-left: 30px;
+  }
+
+  li .login {
+    border: 2px solid rgb(0, 58, 93);
+    padding: 7px 7px;
+    border-radius: 50px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .navBar {
+    padding-left: 57px;
+  }
+
+  .top-bar li a i {
+    padding-right: none;
+  }
+
+  li .login {
+    border: 2px solid rgb(0, 58, 93);
+    padding: 7px 7px;
+    border-radius: 50px;
+  }
+
+  .logo {
+    margin-left: 21px;
+  }
+
+  .info {
+    font-family: Light;
+    line-height: 1.8;
+    padding: 60px 66px;
+    margin: 20px;
+  }
+
+  #bg-info {
+    background-color: #f6fbfe;
+    padding: 0px 26px;
+    width: 237%;
+  }
+
+  .info h1 {
+    font-size: 40px;
+    font-family: Light;
+    color: rgb(0, 58, 93);
+  }
+
+  .info p {
+    font-size: 15px;
+  }
+
+  #bg-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 27px;
+    grid-row-gap: 1em;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .login i {
+    display: none;
+  }
+
+  .slider {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    margin: 19px 149px;
+  }
+
+  .part_one {
+    background-color: rgb(0, 58, 93);
+    color: #fff;
+    width: 237%;
+    height: 319px;
+    font-size: 29px;
+    padding: 69px 139px;
+    font-family: Light;
+  }
+
+  #description {
+    background-color: #f6fbfe;
+    width: 237%;
+    height: 318px;
+    font-size: 30px;
+    padding: 33px 150px;
+    font-family: Light;
+  }
+
+  .part_tow {
+    background-color: #f6fbfe;
+    color: black;
+    width: 237%;
+    height: 321px;
+    font-size: 17px;
+    padding: 44px 80px 28px 150px;
+    line-height: 1.5;
+    font-family: Light;
+  }
+
+  .more_infos p {
+    padding-top: 73px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+  }
+
+  #mifs {
+    background-color: rgb(0, 58, 93);
+    width: 237%;
+    height: 330px;
+    color: #fff;
+    font-size: 32px;
+    font-family: myFirstFont;
+  }
+
+  .more_infos .btn {
+    border: none;
+    padding: 20px;
+    background-color: rgb(101, 178, 232);
+    border-radius: 50px;
+    color: #fff;
+    width: 250px;
+    font-family: Semibold;
+    font-size: 23px;
+    margin-top: 7%;
+    margin-left: 35%;
+  }
+
+  .multi_offre {
+    padding: 75px 335px;
+  }
+
+  .cadr {
+    margin: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .price {
+    text-align: center;
+    padding: 50px 340px;
+  }
+
+  .footer_infos {
+    height: 300px;
+    width: 237%;
+    background-color: rgb(0, 58, 93);
+  }
 }
 .bloc_one {
   display: grid;
@@ -407,9 +601,8 @@ h2 i {
   font-size: 21px;
   font-family: myFirstFont;
   color: rgb(73, 73, 73);
-  align-items: center;
-  left: 73%;
-  position: absolute;
+  text-align: center;
+  line-height: 0px;
 }
 
 .detalis {
@@ -436,6 +629,15 @@ h2 i {
   padding: 8px 0;
   font-size: 17px;
   color: rgb(0, 58, 93);
+}
+
+.smbo {
+  display: inline-block;
+  position: absolute;
+  margin-top: -24px;
+  margin-left: -24px;
+  width: 24px;
+  height: 26px;
 }
 
 /*# sourceMappingURL=style.css.map */

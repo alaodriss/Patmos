@@ -14,9 +14,9 @@
 @import "./layout/footer";
 
 
-@import "./pages/work";
+
 @import "./pages/mobile";
-@import "./pages/project";
+
 
 
 
@@ -149,9 +149,8 @@ h2 i {
     font-size: 21px;
     font-family: myFirstFont;
     color: rgb(73, 73, 73);
-    align-items: center;
-    left: 73%;
-    position: absolute;
+    text-align: center;
+    line-height: 0px;
 
 }
 
@@ -185,4 +184,14 @@ h2 i {
     padding: 8px 0;
     font-size: 17px;
    color: rgb(0, 58, 93);
+}
+
+.smbo{
+    display: inline-block;
+    position: absolute;
+    
+    margin-top: -24px;
+    margin-left: -24px;
+    width: 24px;
+    height: 26px;
 }

@@ -8,7 +8,7 @@ nav{
     }
 }
 
-ul li {
+.top-bar li{
     padding: 0 20px;
     a {
         font-family: Semibold;
@@ -16,7 +16,7 @@ ul li {
         cursor: pointer;
         transition: transform .2s;
         i {
-            padding-right: 10px;
+            padding-right: 19px;
         }
     }
    

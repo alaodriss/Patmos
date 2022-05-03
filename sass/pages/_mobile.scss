@@ -1,4 +1,235 @@
-@media screen and (max-width: 1280px)
+
+
+
+@media screen and (max-width: 1024px){
+
+ 
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .login i {
+        display: none;
+    }
+    li .login {
+        color: rgb(0, 58, 93);
+        border: none;
+        padding: none;
+        border-radius: none;
+    }
+    .slider {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+        margin: 19px 326px;
+    }
+    .part_one {
+        background-color: rgb(0, 58, 93);
+        color: #fff;
+        width: 100%;
+        height: 319px;
+        font-size: 37px;
+        padding: 69px 139px;
+        font-family: Light;
+    }
+
+    #description {
+          background-color: #f6fbfe;
+    width: 100%;
+    height: 372px;
+    font-size: 38px;
+    padding: 32px 150px;
+    font-family: Light;
+}
+    
+
+    #bg-info {
+        background-color: #f6fbfe;
+        padding: 0px 18px;
+    }
+
+    #bloc_one {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 1em;
+        margin: 6px 37px;
+    }
+
+    
+    .cadr{
+        margin: 20px;
+    }
+
+    .navBar {
+        padding-left: 30px;
+    }
+    
+
+
+li .login {
+    border: 2px solid rgb(0, 58, 93);
+    padding: 7px 7px;
+    border-radius: 50px;
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 376px)
 {
-    /* Rédigez vos propriétés CSS ici */
+    .navBar {
+        padding-left: 57px;
+    }
+    
+    .top-bar li a i {
+         padding-right: none;
+    }
+
+li .login {
+    border: 2px solid rgb(0, 58, 93);
+    padding: 7px 7px;
+    border-radius: 50px;
+}
+    .logo {
+        margin-left: 21px;
+    }
+    .info {
+        font-family: Light;
+        line-height: 1.8;
+        padding: 60px 66px;
+        margin: 20px;
+    }
+
+    #bg-info {
+        background-color: #f6fbfe;
+        padding: 0px 26px;
+        width: 237%;
+    }
+
+    .info h1 {
+        font-size: 40px;
+        font-family: Light;
+        color: rgb(0, 58, 93);
+    }
+
+    .info p {
+        font-size: 15px;
+    }
+    #bg-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 27px;
+        grid-row-gap: 1em;
+       
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .login i {
+        display: none;
+    }
+   
+    .slider {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+        margin: 19px 149px;
+    }
+    .part_one {
+        background-color: rgb(0, 58, 93);
+        color: #fff;
+        width: 237%;
+        height: 319px;
+        font-size: 29px;
+        padding: 69px 139px;
+        font-family: Light;
+    }
+
+    #description {
+        background-color: #f6fbfe;
+        width: 237%;
+        height: 318px;
+        font-size: 30px;
+        padding: 33px 150px;
+        font-family: Light;
+    }
+    .part_tow {
+        background-color: #f6fbfe;
+        color: black;
+        width: 237%;
+        height: 321px;
+        font-size: 17px;
+        padding: 44px 80px 28px 150px;
+        line-height: 1.5;
+        font-family: Light;
+    }
+
+    .more_infos p {
+        padding-top: 73px;
+        text-align: center;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+   #mifs{
+        background-color: rgb(0, 58, 93);
+        width: 237%;
+        height: 330px;
+        color: #fff;
+        font-size: 32px;
+        font-family: myFirstFont;
+    }
+
+    .more_infos .btn {
+        border: none;
+        padding: 20px;
+        background-color: rgb(101, 178, 232);
+        border-radius: 50px;
+        color: #fff;
+        width: 250px;
+        font-family: Semibold;
+        font-size: 23px;
+        margin-top: 7%;
+        margin-left: 35%;
+    }
+
+    .multi_offre {
+      
+        padding: 75px 335px;
+    }
+
+    .cadr{
+        margin: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    
+    }
+
+    .price {
+        text-align: center;
+        padding: 50px 340px;
+    }
+
+    .footer_infos {
+        height: 300px;
+        width: 237%;
+        background-color: rgb(0, 58, 93);
+    }
+
+  
 }
