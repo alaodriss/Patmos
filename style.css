@@ -267,14 +267,14 @@ hr {
 
   header {
     display: block;
-    justify-content: none;
+    /*justify-content: none;*/
     align-items: center;
     margin: 40px 65px;
   }
 
   .navBar {
-    padding-left: none;
-    text-align: none;
+    /*padding-left: none;*/
+    /*text-align: none;*/
     padding: 47px 0 0 195px;
   }
 
@@ -352,7 +352,7 @@ hr {
 
   li .login {
     border: none;
-    padding: none;
+    /*padding: none;*/
     border-radius: 50px;
   }
 
@@ -376,21 +376,21 @@ hr {
 
   header {
     display: block;
-    justify-content: none;
+    /*justify-content: none;*/
     align-items: center;
     margin: 40px 65px;
   }
 
   .navBar {
-    padding-left: none;
-    text-align: none;
+ /*   padding-left: none;*/
+   /* text-align: none;*/
     padding: 47px 0 0 11px;
   }
 
   nav ul {
     display: flex;
     justify-content: space-between;
-    align-items: none;
+   /* align-items: none;*/
     padding-left: 98px;
   }
 
@@ -439,7 +439,7 @@ hr {
     grid-column-gap: 3px !important;
     grid-row-gap: 1em;
     margin-left: 150px !important;
-    padding: 46px -16px;
+    /*padding: 46px -16px;*/
   }
 
   .info {
@@ -476,7 +476,7 @@ hr {
 
   li .login {
     border: none;
-    padding: none;
+   /* padding: none;*/
     border-radius: 50px;
   }
 
@@ -503,21 +503,21 @@ hr {
 
   header {
     display: block;
-    justify-content: none;
+   /* justify-content: none;*/
     align-items: center;
     margin: 40px 65px;
   }
 
   .navBar {
-    padding-left: none;
-    text-align: none;
+   /* padding-left: none;
+    text-align: none;*/
     padding: 47px 0 0 174px;
   }
 
   nav ul {
     display: flex;
     justify-content: space-between;
-    align-items: none;
+   /* align-items: none;*/
     padding-left: 98px;
   }
 
@@ -608,7 +608,7 @@ hr {
 
   li .login {
     border: none;
-    padding: none;
+   /* padding: none;*/
     border-radius: 50px;
   }
 
@@ -727,7 +727,7 @@ hr {
   height: 61px;
   background-color: rgb(0, 58, 93);
   position: absolute;
-  padding: -6px;
+  /*padding: -6px;*/
   margin-top: -46px;
   margin-left: 30px;
   margin-bottom: 48px;
@@ -740,6 +740,7 @@ hr {
   text-align: center;
   line-height: 2;
   letter-spacing: 3px;
+  
 }
 
 .offre_one {
