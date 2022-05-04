@@ -1,7 +1,3 @@
-@import "./utils/variables";
-@import "./utils/functions";
-@import "./utils/mixins";
-@import "./utils/extensions";
 
 @import "./base/base";
 @import "./base/typography";
@@ -16,22 +12,41 @@
 
 
 @import "./pages/mobile";
+@import "./pages/tabe";
+@import "./pages/phone";
 
 
 
 
-.bloc_one{
+.bg-info{
     display: grid;
     grid-template-columns: repeat( 2, 1fr);
     grid-column-gap: 131px;
     grid-row-gap: 1em;
     /*margin: 96px 0;*/
 }
-.bg-info{
-    background-color: #f6fbfe;
-    padding: 0px 180px;
+.bg-color{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    grid-column-gap: 328px;
+    grid-row-gap: 1em;
+    margin-left: 255px;
+   
 
 }
+
+.reli {
+    padding: 156px 0 0 0;
+}
+
+.cadrs{
+    background-color: #f6fbfe;
+}
+/*.bg-info{
+   
+    padding: 0px 180px;
+
+}*/
 
 .bloc_one img{
     padding: 60px 51px;
@@ -39,7 +54,7 @@
 .description{
     background-color: #f6fbfe;
     width: 100%;
-    height: 675px;
+    height: 600px;
     font-size: 70px;
     padding: 75px 150px;
     font-family: Light;
@@ -139,7 +154,7 @@ h2 i {
 
 }
 
-#dollar{
+.dollar{
     font-size: 22px;
     font-family: myFirstFont;
     color: rgb(73, 73, 73);

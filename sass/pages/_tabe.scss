@@ -1,11 +1,9 @@
-
-
-@media screen and (max-width: 1024px){
+@media screen and (max-width:768px){
 
     .logo {
-        /* margin-left: 49px; */
-        /* padding: 1px 273px; */
-        text-align: center;
+       
+      padding: 1px 118px;
+    
     }
 
     header {
@@ -17,16 +15,19 @@
     .navBar {
          padding-left: none; 
          text-align: none; 
-        padding: 47px 0 0 195px;
+        padding: 47px 0 0 11px;
     }
 
     nav ul {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: none;
+        padding-left: 98px;
     }
     
-
+    .all_blocs {
+        margin: 30px;
+    }
 
     .top-bar li a i {
        padding-right: 19px; 
@@ -36,86 +37,106 @@
         justify-content: space-between;
         align-items: center;
         z-index: 10;
-        margin: 19px 326px;
+        margin: 19px 148px;
     }
     .part_one {
         background-color: rgb(0, 58, 93);
         color: #fff;
         width: 100%;
         height: 401px;
-        font-size: 37px;
+        font-size: 27px;
         padding: 69px 139px;
         font-family: Light;
     }
 
     .part_tow {
        
-        
+        font-size: 17px;
         height: 394px;
       
     }
-    .bg-color {
-        grid-column-gap: 112px !important;
-        margin-left: 58px !important;
-        padding: 49px 0px !important;
+
+ 
+
+    .bg-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0px !important;
+        grid-row-gap: 1em;
+        margin: 96px 0;
     }
-    .info {
+
     
-        padding: 0px 0;
+.bg-color {
+    display: flex !important;
+    flex-direction: column !important;
+    grid-column-gap: 3px !important;
+    grid-row-gap: 1em;
+    margin-left: 150px !important; 
+    padding: 46px -16px;
+}
+    
+
+    .info {
+       
+            padding: 0px 27px;
+        
     }
    
-    .all_blocs {
-        margin: 50px;
-    }
     #description {
           background-color: #f6fbfe;
             width: 100%;
             height: 392px;
-            font-size: 38px;
+            font-size: 30px;
             padding: 32px 150px;
             font-family: Light;
     }
     
     .bloc_one {
         padding: 0 20px;
-        margin-bottom: 38px;
     }
 
     .icon {
-        padding: 95px 15px;
+    
+        padding: 0px 19px;
+       .icon-fen{
+             padding: 230px 19px;
+       }
     }
     
+    .bloc_one,.bg-color{
+     
+        background-color: #f6fbfe;
+      
+
+    }
     .cadr{
         margin: 20px;
     }
 
-    .fa-circle-user{
-        font-size: 25px;
-    }
-
     li .login {
         border: none;
-        padding:none;
+        padding: none;
         border-radius: 50px;
     }
-
+    #name{
+        display: none;
+    }
 
     .more_infos .btn {
         margin-left: 36%;
     }
 
-    #name{
-        display: none;
-     }
-
-     .bloc_one,.bg-color{
-    
-        background-color: #f6fbfe;
-        padding: 50px 50px;
+    .more_infos p {
+        
+        font-size: 24px;
     }
+
+
+    h1 {
+        font-size: 63px;
+    
+    }
+    
+    
 }
-
-
-
-
-

@@ -168,6 +168,7 @@ li .login {
   font-family: Light;
   line-height: 1.8;
   padding: 60px 0;
+  margin: 25px 0;
 }
 .info .info h1 {
   color: rgb(0, 58, 93);
@@ -178,6 +179,13 @@ li .login {
 
 .info p {
   font-size: 20px;
+}
+
+.info_reliability {
+  font-family: Light;
+  line-height: 1.8;
+  padding: 60px 0;
+  margin: 25px 0;
 }
 
 .icon {
@@ -251,21 +259,33 @@ hr {
 }
 
 @media screen and (max-width: 1024px) {
+  .logo {
+    /* margin-left: 49px; */
+    /* padding: 1px 273px; */
+    text-align: center;
+  }
+
+  header {
+    display: block;
+    justify-content: none;
+    align-items: center;
+    margin: 40px 65px;
+  }
+
+  .navBar {
+    padding-left: none;
+    text-align: none;
+    padding: 47px 0 0 195px;
+  }
+
   nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .login i {
-    display: none;
-  }
-
-  li .login {
-    color: rgb(0, 58, 93);
-    border: none;
-    padding: none;
-    border-radius: none;
+  .top-bar li a i {
+    padding-right: 19px;
   }
 
   .slider {
@@ -280,105 +300,106 @@ hr {
     background-color: rgb(0, 58, 93);
     color: #fff;
     width: 100%;
-    height: 319px;
+    height: 401px;
     font-size: 37px;
     padding: 69px 139px;
     font-family: Light;
   }
 
+  .part_tow {
+    height: 394px;
+  }
+
+  .bg-color {
+    grid-column-gap: 112px !important;
+    margin-left: 58px !important;
+    padding: 49px 0px !important;
+  }
+
+  .info {
+    padding: 0px 0;
+  }
+
+  .all_blocs {
+    margin: 50px;
+  }
+
   #description {
     background-color: #f6fbfe;
     width: 100%;
-    height: 372px;
+    height: 392px;
     font-size: 38px;
     padding: 32px 150px;
     font-family: Light;
   }
 
-  #bg-info {
-    background-color: #f6fbfe;
-    padding: 0px 18px;
+  .bloc_one {
+    padding: 0 20px;
+    margin-bottom: 38px;
   }
 
-  #bloc_one {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 1em;
-    margin: 6px 37px;
+  .icon {
+    padding: 95px 15px;
   }
 
   .cadr {
     margin: 20px;
   }
 
-  .navBar {
-    padding-left: 30px;
+  .fa-circle-user {
+    font-size: 25px;
   }
 
   li .login {
-    border: 2px solid rgb(0, 58, 93);
-    padding: 7px 7px;
+    border: none;
+    padding: none;
     border-radius: 50px;
+  }
+
+  .more_infos .btn {
+    margin-left: 36%;
+  }
+
+  #name {
+    display: none;
+  }
+
+  .bloc_one, .bg-color {
+    background-color: #f6fbfe;
+    padding: 50px 50px;
   }
 }
-@media screen and (max-width: 376px) {
-  .navBar {
-    padding-left: 57px;
-  }
-
-  .top-bar li a i {
-    padding-right: none;
-  }
-
-  li .login {
-    border: 2px solid rgb(0, 58, 93);
-    padding: 7px 7px;
-    border-radius: 50px;
-  }
-
+@media screen and (max-width: 768px) {
   .logo {
-    margin-left: 21px;
+    padding: 1px 118px;
   }
 
-  .info {
-    font-family: Light;
-    line-height: 1.8;
-    padding: 60px 66px;
-    margin: 20px;
+  header {
+    display: block;
+    justify-content: none;
+    align-items: center;
+    margin: 40px 65px;
   }
 
-  #bg-info {
-    background-color: #f6fbfe;
-    padding: 0px 26px;
-    width: 237%;
-  }
-
-  .info h1 {
-    font-size: 40px;
-    font-family: Light;
-    color: rgb(0, 58, 93);
-  }
-
-  .info p {
-    font-size: 15px;
-  }
-
-  #bg-info {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 27px;
-    grid-row-gap: 1em;
+  .navBar {
+    padding-left: none;
+    text-align: none;
+    padding: 47px 0 0 11px;
   }
 
   nav ul {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: none;
+    padding-left: 98px;
   }
 
-  .login i {
-    display: none;
+  .all_blocs {
+    margin: 30px;
+  }
+
+  .top-bar li a i {
+    padding-right: 19px;
   }
 
   .slider {
@@ -386,93 +407,257 @@ hr {
     justify-content: space-between;
     align-items: center;
     z-index: 10;
-    margin: 19px 149px;
+    margin: 19px 148px;
   }
 
   .part_one {
     background-color: rgb(0, 58, 93);
     color: #fff;
-    width: 237%;
-    height: 319px;
-    font-size: 29px;
+    width: 100%;
+    height: 401px;
+    font-size: 27px;
     padding: 69px 139px;
     font-family: Light;
   }
 
+  .part_tow {
+    font-size: 17px;
+    height: 394px;
+  }
+
+  .bg-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0px !important;
+    grid-row-gap: 1em;
+    margin: 96px 0;
+  }
+
+  .bg-color {
+    display: flex !important;
+    flex-direction: column !important;
+    grid-column-gap: 3px !important;
+    grid-row-gap: 1em;
+    margin-left: 150px !important;
+    padding: 46px -16px;
+  }
+
+  .info {
+    padding: 0px 27px;
+  }
+
   #description {
     background-color: #f6fbfe;
-    width: 237%;
-    height: 318px;
+    width: 100%;
+    height: 392px;
     font-size: 30px;
-    padding: 33px 150px;
+    padding: 32px 150px;
     font-family: Light;
   }
 
-  .part_tow {
+  .bloc_one {
+    padding: 0 20px;
+  }
+
+  .icon {
+    padding: 0px 19px;
+  }
+  .icon .icon-fen {
+    padding: 230px 19px;
+  }
+
+  .bloc_one, .bg-color {
     background-color: #f6fbfe;
-    color: black;
-    width: 237%;
-    height: 321px;
-    font-size: 17px;
-    padding: 44px 80px 28px 150px;
-    line-height: 1.5;
-    font-family: Light;
-  }
-
-  .more_infos p {
-    padding-top: 73px;
-    text-align: center;
-    line-height: 1.5;
-    font-size: 20px;
-  }
-
-  #mifs {
-    background-color: rgb(0, 58, 93);
-    width: 237%;
-    height: 330px;
-    color: #fff;
-    font-size: 32px;
-    font-family: myFirstFont;
-  }
-
-  .more_infos .btn {
-    border: none;
-    padding: 20px;
-    background-color: rgb(101, 178, 232);
-    border-radius: 50px;
-    color: #fff;
-    width: 250px;
-    font-family: Semibold;
-    font-size: 23px;
-    margin-top: 7%;
-    margin-left: 35%;
-  }
-
-  .multi_offre {
-    padding: 75px 335px;
   }
 
   .cadr {
     margin: 20px;
   }
 
+  li .login {
+    border: none;
+    padding: none;
+    border-radius: 50px;
+  }
+
+  #name {
+    display: none;
+  }
+
+  .more_infos .btn {
+    margin-left: 36%;
+  }
+
+  .more_infos p {
+    font-size: 24px;
+  }
+
+  h1 {
+    font-size: 63px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .logo {
+    padding: 1px 303px;
+  }
+
+  header {
+    display: block;
+    justify-content: none;
+    align-items: center;
+    margin: 40px 65px;
+  }
+
+  .navBar {
+    padding-left: none;
+    text-align: none;
+    padding: 47px 0 0 174px;
+  }
+
   nav ul {
     display: flex;
     justify-content: space-between;
+    align-items: none;
+    padding-left: 98px;
+  }
+
+  .top-bar li a i {
+    padding-right: 19px;
+  }
+
+  .slider {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    margin: 19px 317px;
+  }
+
+  .part_one {
+    background-color: rgb(0, 58, 93);
+    color: #fff;
+    width: 290%;
+    height: 401px;
+    font-size: 44px;
+    padding: 69px 139px;
+    font-family: Light;
+  }
+
+  .part_tow {
+    font-size: 22px;
+    height: 394px;
+    width: 292%;
+  }
+
+  .bg-color {
+    margin: 10px 20px;
+  }
+
+  .bg-color {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 47px !important;
+    grid-row-gap: 1em;
+    margin-left: 255px;
+    padding: 46px 64px !important;
+  }
+
+  .bg-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 1em;
+  }
+
+  .cadrs {
+    background-color: #fff;
+  }
+
+  .reliability {
+    margin-left: -45px !important;
+  }
+
+  .info {
+    padding: 0px 0px;
+  }
+
+  .all_blocs {
+    margin: 20px 147px;
+  }
+
+  #description {
+    background-color: #f6fbfe;
+    width: 292%;
+    height: 392px;
+    font-size: 38px;
+    padding: 32px 150px;
+    font-family: Light;
+  }
+
+  .cadrs {
+    display: none;
+  }
+
+  .icon {
+    padding: 52px 131px;
+  }
+
+  .cadr {
+    margin: 20px;
+  }
+
+  li .login {
+    border: none;
+    padding: none;
+    border-radius: 50px;
+  }
+
+  #name {
+    display: none;
+  }
+
+  .more_infos .btn {
+    margin-left: 40%;
+    margin-top: 5%;
+  }
+
+  #mifs {
+    width: 292%;
+  }
+
+  .more_infos p {
+    font-size: 24px;
   }
 
   .price {
-    text-align: center;
-    padding: 50px 340px;
+    /* text-align: center; */
+    padding: 50px 446px;
+  }
+
+  #multi_offre {
+    margin: 21px 565px;
   }
 
   .footer_infos {
-    height: 300px;
-    width: 237%;
-    background-color: rgb(0, 58, 93);
+    width: 292%;
+  }
+
+  .bg-color {
+    margin-left: 140px !important;
+  }
+
+  .cadrs {
+    background-color: transparent !important;
+  }
+
+  /* .cadrs{
+       margin-left: -341px;
+   }*/
+  #icon_1 {
+    margin-left: 37px;
   }
 }
-.bloc_one {
+.bg-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 131px;
@@ -480,11 +665,27 @@ hr {
   /*margin: 96px 0;*/
 }
 
-.bg-info {
-  background-color: #f6fbfe;
-  padding: 0px 180px;
+.bg-color {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 328px;
+  grid-row-gap: 1em;
+  margin-left: 255px;
 }
 
+.reli {
+  padding: 156px 0 0 0;
+}
+
+.cadrs {
+  background-color: #f6fbfe;
+}
+
+/*.bg-info{
+
+    padding: 0px 180px;
+
+}*/
 .bloc_one img {
   padding: 60px 51px;
 }
@@ -492,7 +693,7 @@ hr {
 .description {
   background-color: #f6fbfe;
   width: 100%;
-  height: 675px;
+  height: 600px;
   font-size: 70px;
   padding: 75px 150px;
   font-family: Light;
@@ -590,7 +791,7 @@ h2 i {
   font-family: bolde;
 }
 
-#dollar {
+.dollar {
   font-size: 22px;
   font-family: myFirstFont;
   color: rgb(73, 73, 73);
