@@ -1,0 +1,425 @@
+
+
+
+@media (min-width: 270px) and (max-width:385px)
+
+{
+
+
+    .logo {
+        /* margin-left: 49px; */
+        padding: 0px 199px; 
+        text-align: center;
+    }
+    header {
+        display: block;
+        justify-content: none;
+        align-items: center;
+        margin: 57px 253px;
+    }
+    .navBar {
+         padding-left: none; 
+         text-align: none; 
+        padding: 47px 0 0 195px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+
+
+
+    .bg-info {
+        grid-column-gap: 125px !important ;
+    }
+
+    
+    .top-bar li a i {
+       padding-right: 19px; 
+    }
+    .slider {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+        margin: 16px 427px;
+    }
+    .part_one {
+        background-color: rgb(0, 58, 93);
+        color: #fff;
+        width: 400%;
+        height: 363px;
+         font-size: 45px;
+        padding: 47px 139px;
+        font-family: Light;
+    
+    }
+
+    .part_tow {
+        width: 400%;
+        height: 336px;
+        font-size: 22px;
+      
+    }
+    
+ 
+    .cadrs {
+        width:400% !important;
+        background-color: #f6fbfe;
+    }
+    .bg-info {
+       
+        margin: 0 !important;
+    }
+    .cards_6{
+        margin: 0 342px     !important;
+    }
+    .info {
+    
+        padding: 0px 0;
+    }
+   
+    .info p {
+        font-size: 12px;
+    }
+    .price {
+        padding: 40px 575px   !important;
+    }
+    #description {
+          background-color: #f6fbfe;
+             width:400% !important;
+             height: 344px;
+             font-size: 38px;
+            padding: 32px 150px;
+            font-family: Light;
+    }
+    
+    .bloc_one {
+        padding: 0 20px;
+        margin-bottom: 38px;
+    }
+
+    .icon {
+        padding: 93px 20px 54px 99px;
+        width: 326px;
+        height: auto;    }
+    
+
+        .reli {
+            padding: 27px 0px 1px 271px !important;
+            width: 516px !important;
+            height: auto;
+        }
+    .cadr{
+        margin: 20px;
+    }
+
+    .fa-circle-user{
+        font-size: 25px;
+    }
+
+    li .login {
+        border: none;
+        padding:none;
+        border-radius: 50px;
+    }
+
+
+    .more_infos .btn {
+        margin: 2% 40%;
+        }
+
+    .more_infos p {
+    font-size: 38px;
+    }
+
+
+    .more_infos {
+     
+        height: 280px;
+        width: 400% !important;
+        
+    }
+    #name{
+        display: none;
+     }
+
+     .bloc_one,.bg-color{
+    
+        background-color: #f6fbfe;
+        padding: 50px 50px;
+    }
+
+    .bar-footer p {
+      
+      width: none !important; 
+    }
+
+    .title {
+      
+        margin-left: 5px !important;
+    }
+
+    .image_slider{
+        margin-left: -59px !important;
+    }
+    
+    h1{
+        font-size: 50px !important;
+    }
+
+    .footer_infos {
+        width: 457% !important;
+     
+    }
+
+    .multi_offre {
+       
+        margin: 74px 668px !important;
+    }
+
+    
+.footer_infos {
+    width:400% !important;
+    height: 597px;
+}
+.bar-footer p {
+    padding: 27px 257px;
+}
+
+.content_footer {
+     display: block; 
+     
+
+    padding: 50px 251px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 150px) and (max-width:270px){
+    .logo {
+        /* margin-left: 49px; */
+        padding: 0px 199px; 
+        text-align: center;
+    }
+    header {
+        display: block;
+        justify-content: none;
+        align-items: center;
+        margin: 57px 175px
+    }
+    .navBar {
+         padding-left: none; 
+         text-align: none; 
+        padding: 47px 0 0 195px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+
+
+
+    .bg-info{
+   
+        grid-column-gap: c  !important;
+      
+    }
+
+    .top-bar li a i {
+       padding-right: 19px; 
+    }
+    .slider {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+        margin: 16px 338px;
+    }
+    .part_one {
+        background-color: rgb(0, 58, 93);
+        color: #fff;
+        width: 400%;
+        height: 286px;
+        font-size: 37px;
+        padding: 47px 139px;
+        font-family: Light;
+    
+    }
+
+    .part_tow {
+        width: 400%;
+        height: 286px;
+        font-size: 19px;
+      
+    }
+    
+ 
+    .cadrs {
+        width:400% !important;
+        background-color: #f6fbfe;
+    }
+    .bg-info {
+       
+        margin: 0 !important;
+    }
+    .cards_6{
+        margin: 0 254px    !important;
+    }
+    .info {
+    
+        padding: 0px 0;
+    }
+   
+    .info p {
+        font-size: 12px;
+    }
+    .price {
+        padding: 40px 453px  !important;
+    }
+    #description {
+          background-color: #f6fbfe;
+             width:400% !important;
+             height: 344px;
+             font-size: 34px;
+            padding: 32px 150px;
+            font-family: Light;
+    }
+    
+    .bloc_one {
+        padding: 0 20px;
+        margin-bottom: 38px;
+    }
+
+    .icon {
+        padding: 93px 20px 54px 99px;
+        width: 326px;
+        height: auto;    }
+    
+
+        .reli {
+            padding: 34px 0px 0px 226px !important;
+            width: 443px !important;
+            height: auto;
+        }
+    .cadr{
+        margin: 20px;
+    }
+
+    .fa-circle-user{
+        font-size: 25px;
+    }
+
+    li .login {
+        border: none;
+        padding:none;
+        border-radius: 50px;
+    }
+
+
+    .more_infos .btn {
+        margin: 7% 38%;
+        }
+
+    .more_infos p {
+    font-size: 28px;
+    }
+
+
+    .more_infos {
+     
+        height: 280px;
+        width: 400% !important;
+        
+    }
+    #name{
+        display: none;
+     }
+
+     .bloc_one,.bg-color{
+    
+        background-color: #f6fbfe;
+        padding: 50px 50px;
+    }
+
+    .bar-footer p {
+      
+      width: none !important; 
+    }
+
+    .title {
+      
+        margin-left: 5px !important;
+    }
+
+    .image_slider{
+        margin-left: -59px !important;
+    }
+    
+    h1{
+        font-size: 50px !important;
+    }
+
+    .footer_infos {
+        width: 457% !important;
+     
+    }
+
+    .multi_offre {
+       
+        margin: 74px 533px !important;
+    }
+
+    
+.footer_infos {
+    width:400% !important;
+    height: 597px;
+}
+.bar-footer p {
+    padding: 27px 257px;
+}
+
+.content_footer {
+     display: block; 
+     
+
+    padding: 50px 251px;
+}
+}

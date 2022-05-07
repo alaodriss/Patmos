@@ -1,11 +1,10 @@
-@media screen and (max-width:376px){
 
+@media (min-width: 605px) and (max-width: 804px){
     .logo {
-       
-      padding: 1px 303px;
-    
+        /* margin-left: 49px; */
+        /* padding: 1px 273px; */
+        text-align: center;
     }
-
     header {
         display: block;
         justify-content: none;
@@ -15,17 +14,23 @@
     .navBar {
          padding-left: none; 
          text-align: none; 
-        padding: 47px 0 0 174px;
+        padding: 47px 0 0 195px;
     }
 
     nav ul {
         display: flex;
         justify-content: space-between;
-        align-items: none;
-        padding-left: 98px;
+        align-items: center;
     }
     
 
+
+
+    .bg-info{
+   
+        grid-column-gap: 0px  !important;
+      
+    }
 
     .top-bar li a i {
        padding-right: 19px; 
@@ -35,141 +40,128 @@
         justify-content: space-between;
         align-items: center;
         z-index: 10;
-        margin: 19px 317px;
+        margin: 16px 186px;
     }
     .part_one {
         background-color: rgb(0, 58, 93);
         color: #fff;
-        width: 290%;
-        height: 401px;
-        font-size: 44px;
+        width: 105%;
+        height: 284px;
+        font-size: 27px;
         padding: 69px 139px;
         font-family: Light;
     }
 
     .part_tow {
-       
-        font-size: 22px;
-        height: 394px;
-        width: 292%;
+        width: 105%;
+        height: 244px;
+        font-size: 12px;
       
     }
-
-   
-    .bg-color{
-        margin: 10px 20px;
-    }
-
-    .bg-color {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 47px !important;
-        grid-row-gap: 1em;
-        margin-left: 255px;
-        padding: 46px 64px !important;
-    }
-
-    .bg-info {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 35px;
-    grid-row-gap: 1em;
-   
-}
-
-.cadrs{
-    background-color: #fff;
-}
-.reliability{
     
-    margin-left: -45px !important;
-   
-}
-
-
-
-
+ 
+    .cadrs {
+        width: 105% !important;
+        background-color: #f6fbfe;
+    }
+    
+    
     .info {
-        padding: 0px 0px;
+    
+        padding: 0px 0;
     }
    
-    .all_blocs {
-        margin: 20px 147px;
+    .info p {
+        font-size: 12px;
     }
+    /*.all_blocs {
+        margin: 50px;
+    }*/
     #description {
-            background-color: #f6fbfe;
-            width: 292%;
-            height: 392px;
-            font-size: 38px;
+          background-color: #f6fbfe;
+             width: 105%;
+            height: 270px;
+            font-size: 27px;
             padding: 32px 150px;
             font-family: Light;
     }
     
-    .cadrs {
-       display: none;
+    .bloc_one {
+        padding: 0 20px;
+        margin-bottom: 38px;
     }
-    
-    
+
     .icon {
-        padding: 52px 131px;
-    }
+        padding: 45px 20px 54px 129px;
+        width: 326px;
+        height: auto;    }
     
-    
+
+   .reli {
+    padding: 38px 0 0 50px !important;
+    width: 255px;
+    height: auto;
+        }
     .cadr{
         margin: 20px;
     }
 
+    .fa-circle-user{
+        font-size: 25px;
+    }
+
     li .login {
         border: none;
-        padding: none;
+        padding:none;
         border-radius: 50px;
+    }
+
+
+    .more_infos .btn {
+        margin-left: 36%;
+    }
+
+    .more_infos p {
+    font-size: 25px;
+    }
+
+
+    .more_infos {
+     
+        height: 280px;
+        width: 105% !important;
+        
     }
     #name{
         display: none;
+     }
+
+     .bloc_one,.bg-color{
+    
+        background-color: #f6fbfe;
+        padding: 50px 50px;
     }
 
-    .more_infos .btn {
-        margin-left: 40%;
-        margin-top: 5%;
-    }
-
-    #mifs {
-        width: 292%;
-
-    }
-    .more_infos p {
-        font-size: 24px;
-    }
-
-    .price {
-        /* text-align: center; */
-        padding: 50px 446px;
-    }
-    #multi_offre {
+    .bar-footer p {
       
-        margin: 21px 565px;
+      width: none !important; 
     }
-   
+
+    .title {
+      
+        margin-left: 5px !important;
+    }
+
+    .image_slider{
+        margin-left: -59px !important;
+    }
+    
+    h1{
+        font-size: 50px !important;
+    }
+
     .footer_infos {
-    
-        width: 292%;
-       
+        width: 105%;
+     
     }
-    .bg-color{
-    
-        margin-left: 140px !important;
-        
-    }
-
-    .cadrs{
-        background-color: transparent !important;
-    }
-   /* .cadrs{
-        margin-left: -341px;
-    }*/
-
-    #icon_1{
-        margin-left: 37px;
-    }
-    
 }

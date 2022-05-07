@@ -1,15 +1,15 @@
 
-@media (min-width: 804px) and (max-width: 950px){
+@media (min-width: 250px) and (max-width:570px){
     .logo {
         /* margin-left: 49px; */
-        /* padding: 1px 273px; */
+        padding: 0px 199px; 
         text-align: center;
     }
     header {
         display: block;
         justify-content: none;
         align-items: center;
-        margin: 40px 65px;
+        margin: 57px 34px
     }
     .navBar {
          padding-left: none; 
@@ -28,7 +28,7 @@
 
     .bg-info{
    
-        grid-column-gap: 64px  !important;
+        grid-column-gap: 0px  !important;
       
     }
 
@@ -40,34 +40,38 @@
         justify-content: space-between;
         align-items: center;
         z-index: 10;
-        margin: 19px 326px;
+        margin: 16px 201px;
     }
     .part_one {
         background-color: rgb(0, 58, 93);
         color: #fff;
-        width: 100%;
-        height: 284px;
-        font-size: 30px;
-        padding: 69px 139px;
+        width: 186%;
+        height: 286px;
+        font-size: 34px;
+        padding: 47px 139px;
         font-family: Light;
+    
     }
 
     .part_tow {
-       
-        height: 244px;
-        font-size: 12px;
+        width: 186%;
+        height: 286px;
+        font-size: 14px;
       
     }
     
-    .reli {
-        padding: 0px 0 0 105px !important;
-    }
+ 
     .cadrs {
-        width: 100vmax;
+        width: 186% !important;
         background-color: #f6fbfe;
     }
-    
-    
+    .bg-info {
+       
+        margin: 0 !important;
+    }
+    .cards_6{
+        margin: 0 124px   !important;
+    }
     .info {
     
         padding: 0px 0;
@@ -76,14 +80,14 @@
     .info p {
         font-size: 12px;
     }
-    /*.all_blocs {
-        margin: 50px;
-    }*/
+    .price {
+        padding: 30px 362px  !important;
+    }
     #description {
           background-color: #f6fbfe;
-            width: 100%;
-            height: 294px;
-            font-size: 30px;
+             width: 186% !important;
+             height: 344px;
+             font-size: 34px;
             padding: 32px 150px;
             font-family: Light;
     }
@@ -94,16 +98,15 @@
     }
 
     .icon {
-        padding: 45px 20px 54px 129px;
+        padding: 93px 20px 54px 99px;
         width: 326px;
         height: auto;    }
     
 
    .reli {
-            padding: 85px 0 0 320px;
-            
-            width: 326px;
-            height: auto; 
+    padding: 38px 0 0 50px !important;
+    width: 88% !important;
+    height: auto;
         }
     .cadr{
         margin: 20px;
@@ -121,8 +124,8 @@
 
 
     .more_infos .btn {
-        margin-left: 36%;
-    }
+        margin: 7% 37%;
+        }
 
     .more_infos p {
     font-size: 25px;
@@ -131,8 +134,9 @@
 
     .more_infos {
      
-        height: 299px;
- 
+        height: 280px;
+        width: 186% !important;
+        
     }
     #name{
         display: none;
@@ -160,5 +164,15 @@
     
     h1{
         font-size: 50px !important;
+    }
+
+    .footer_infos {
+        width: 186% !important;
+     
+    }
+
+    .multi_offre {
+       
+        margin: 75px 441px !important;
     }
 }

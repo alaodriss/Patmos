@@ -3,14 +3,15 @@
     justify-content: space-between;
     align-items: center;
     z-index: 10;
-    margin: 40px 250px;
+    margin: 51px 192px;
 }
 .title{
-    width: 80%;
+  /*  width: 80%;*/
     height: 250px;
     display: flex;
     flex-direction: column;
     font-family: Light;
+    margin-left: 55px;
     .ph1{
         color:rgb(101, 178, 232);
         font-size: 70px;
@@ -36,9 +37,9 @@
     background-color: rgb(0, 58, 93);
     color: #fff;
     width: 100%;
-    height: 490px;
+    height: 479px;
     font-size: 68px;
-    padding: 46px 142px;
+    padding: 54px  142px;
     font-family: Light;
 }
 
@@ -51,7 +52,7 @@
     width: 100%;
     height: 321px;
     font-size: 22px;
-    padding: 44px 80px 28px 150px;
+    padding: 65px  80px 28px 150px;
     line-height: 1.5;
     font-family: Light;
 }

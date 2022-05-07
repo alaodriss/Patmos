@@ -11,9 +11,15 @@
 
 
 
-@import "./pages/mobile";
+@import "./pages/desk";
 @import "./pages/tabe";
 @import "./pages/phone";
+@import "./pages/phone2";
+@import "./pages/phone3";
+@import "./pages/phone4";
+@import "./pages/phone5";
+
+
 
 
 
@@ -21,26 +27,17 @@
 .bg-info{
     display: grid;
     grid-template-columns: repeat( 2, 1fr);
-    grid-column-gap: 131px;
+    grid-column-gap: 183px;
     grid-row-gap: 1em;
     /*margin: 96px 0;*/
 }
-.bg-color{
-    display: grid;
-    grid-template-columns: repeat( 2, 1fr);
-    grid-column-gap: 328px;
-    grid-row-gap: 1em;
-    margin-left: 255px;
-   
-
-}
 
 .reli {
-    padding: 156px 0 0 0;
+    padding: 85px 0 0 320px;
 }
-
 .cadrs{
     background-color: #f6fbfe;
+    padding: 26px;
 }
 /*.bg-info{
    
@@ -55,7 +52,7 @@
     background-color: #f6fbfe;
     width: 100%;
     height: 498px;
-    font-size: 55px;
+    font-size: 54px;
     padding: 75px 150px;
     font-family: Light;
 }
