@@ -1,5 +1,5 @@
 
-@media (min-width: 250px) and (max-width:446px){
+@media screen and  (max-width:192px){
     .logo {
         /* margin-left: 49px; */
         padding: 0px 199px; 
@@ -9,7 +9,7 @@
         display: block;
         justify-content: none;
         align-items: center;
-        margin: 58px 192px;
+        margin: 57px 0px
     }
     .navBar {
          padding-left: none; 
@@ -28,41 +28,46 @@
 
     .bg-info{
    
-        grid-column-gap: 0px  !important;
+        grid-column-gap: 10px  !important;
       
     }
 
     .top-bar li a i {
-       padding-right: 1px; 
+       padding-right: 19px; 
     }
     .slider {
         display: block;
         justify-content: space-between;
         align-items: center;
         z-index: 10;
-        margin: 16px 356px;
+        margin: 16px 160px;
     }
     .part_one {
         background-color: rgb(0, 58, 93);
         color: #fff;
-        width: 257%;
+        width: 400%;
         height: 286px;
-        font-size: 35px;
+        font-size: 24px;
         padding: 47px 139px;
         font-family: Light;
     
     }
 
     .part_tow {
-        width: 257%;
+        width: 400%;
         height: 286px;
-        font-size: 18px;
+        font-size: 13px;
       
     }
     
+
+.cadrs {
+
+    padding: 0px;
+}
  
     .cadrs {
-        width: 257% !important;
+        width:400% !important;
         background-color: #f6fbfe;
     }
     .bg-info {
@@ -70,24 +75,25 @@
         margin: 0 !important;
     }
     .cards_6{
-        margin: 0 251px    !important;
+        margin:43px 62px !important;
     }
     .info {
     
         padding: 0px 0;
     }
    
+    
     .info p {
-        font-size: 18px;
+        font-size: 12px;
     }
     .price {
-        padding: 40px 497px !important;
+        padding: 24px 248px !important;
     }
     #description {
           background-color: #f6fbfe;
-             width: 257% !important;
+             width:400% !important;
              height: 344px;
-             font-size: 37px;
+             font-size: 27px;
             padding: 32px 150px;
             font-family: Light;
     }
@@ -98,16 +104,15 @@
     }
 
     .icon {
-        padding: 93px 20px 54px 167px;
-        width: 497px;
-        height: auto;
-    }    
+        padding: 93px 20px 54px 99px;
+        width: 326px;
+        height: auto;    }
     
 
-   .reli {
-    padding: 38px 0 0 50px !important;
-    width: 88% !important;
-    height: auto;
+        .reli {
+            padding: 33px 0px 0px 111px !important;
+            width: 341px !important;
+            height: auto;
         }
     .cadr{
         margin: 20px;
@@ -125,18 +130,18 @@
 
 
     .more_infos .btn {
-        margin:3% 38%
+        margin: 3% 28%;
         }
 
     .more_infos p {
-    font-size: 30px;
+    font-size: 21px;
     }
 
 
     .more_infos {
      
         height: 280px;
-        width: 257%!important;
+        width: 400% !important;
         
     }
     #name{
@@ -168,12 +173,28 @@
     }
 
     .footer_infos {
-        width: 257% !important;
+        width: 457% !important;
      
     }
 
     .multi_offre {
        
-        margin: 74px 578px !important;
+        margin: 74px 351px !important;
     }
+
+    
+.footer_infos {
+    width:400% !important;
+    height: 597px;
+}
+.bar-footer p {
+    padding: 27px 257px;
+}
+
+.content_footer {
+     display: block; 
+     
+
+    padding: 50px 251px;
+}
 }

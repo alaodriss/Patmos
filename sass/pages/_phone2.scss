@@ -33,7 +33,7 @@
     }
 
     .top-bar li a i {
-       padding-right: 19px; 
+       padding-right: 1px; 
     }
     .slider {
         display: block;
@@ -59,15 +59,17 @@
         font-size: 10px;
       
     }
-    
+    .cards_6{
+        margin: 0 70px   !important;
+    }
  
     .cadrs {
-        width: 105% !important;
+        width: 115% !important;
         background-color: #f6fbfe;
     }
     .bg-info {
        
-        margin: 0 42px;
+        margin: 0;
     }
     
     .info {

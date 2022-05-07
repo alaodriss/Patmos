@@ -12,6 +12,183 @@ body {
   max-width: 2500px;
 }
 
+.bg-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 183px;
+  grid-row-gap: 1em;
+  /*margin: 96px 0;*/
+}
+
+.reli {
+  padding: 85px 0 0 320px;
+}
+
+.cadrs {
+  background-color: #f6fbfe;
+  padding: 26px;
+}
+
+/*.bg-info{
+
+    padding: 0px 180px;
+
+}*/
+.bloc_one img {
+  padding: 60px 51px;
+}
+
+.description {
+  background-color: #f6fbfe;
+  width: 100%;
+  height: 498px;
+  font-size: 54px;
+  padding: 75px 150px;
+  font-family: Light;
+}
+
+.more_infos {
+  background-color: rgb(0, 58, 93);
+  width: 100%;
+  height: 330px;
+  color: #fff;
+  font-size: 32px;
+  font-family: myFirstFont;
+}
+
+.more_infos p {
+  padding-top: 70px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/************************************* Pricing ***********************************/
+.multi_offre {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 75px 143px;
+}
+
+.bar-hot {
+  width: 300px;
+  height: 61px;
+  background-color: rgb(0, 58, 93);
+  position: absolute;
+  padding: -6px;
+  margin-top: -46px;
+  margin-left: 30px;
+  margin-bottom: 48px;
+  z-index: -12;
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+  color: #fff;
+  font-size: 22px;
+  font-family: bolde;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 3px;
+}
+
+.offre_one {
+  background: #fff;
+  height: 653px;
+  width: 360px;
+  border-radius: 0.8rem;
+  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.shadaow {
+  background: #fff;
+  height: auto;
+  width: 360px;
+  border-radius: 0.8rem;
+  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 70px;
+  font-family: Light;
+  color: rgb(0, 58, 93);
+}
+
+.tlile_pricing {
+  font-size: 32px;
+  color: rgb(0, 58, 93);
+  font-family: myFirstFont;
+  text-align: center;
+  margin: 30px auto;
+}
+
+h2 {
+  color: rgb(0, 58, 93);
+  font-family: bolde;
+  font-size: 70px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+h2 i {
+  font-size: 25px;
+  font-family: bolde;
+  padding-bottom: 15px;
+}
+
+.month {
+  font-size: 20px;
+  font-family: bolde;
+}
+
+.dollar {
+  font-size: 22px;
+  font-family: myFirstFont;
+  color: rgb(73, 73, 73);
+  text-align: center;
+}
+
+#tage {
+  font-size: 21px;
+  font-family: myFirstFont;
+  color: rgb(73, 73, 73);
+  text-align: center;
+  line-height: 0px;
+}
+
+.detalis {
+  font-size: 17px;
+  font-family: myFirstFont;
+  line-height: 1.8;
+  color: rgb(73, 73, 73);
+  margin: 20px;
+}
+
+.liste {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 17px;
+  font-family: myFirstFont;
+  line-height: 1.8;
+  color: rgb(73, 73, 73);
+  margin: 20px;
+}
+
+.liste li i {
+  align-items: start;
+  padding: 8px 0;
+  font-size: 17px;
+  color: rgb(0, 58, 93);
+}
+
+.smbo {
+  display: inline-block;
+  position: absolute;
+  margin-top: -24px;
+  margin-left: -24px;
+  width: 24px;
+  height: 26px;
+}
+
 /******************** Fonts ***************************/
 @font-face {
   font-family: myFirstFont;
@@ -428,7 +605,7 @@ hr {
     justify-content: space-between;
     align-items: center;
     z-index: 10;
-    margin: 19px 326px;
+    margin: 19px 226px;
   }
 
   .part_one {
@@ -554,7 +731,7 @@ hr {
     display: block;
     justify-content: none;
     align-items: center;
-    margin: 40px 65px;
+    margin: 40px 0px;
   }
 
   .navBar {
@@ -574,7 +751,7 @@ hr {
   }
 
   .top-bar li a i {
-    padding-right: 19px;
+    padding-right: 1px;
   }
 
   .slider {
@@ -658,7 +835,7 @@ hr {
   }
 
   .more_infos .btn {
-    margin-left: 36%;
+    margin-left: 29%;
   }
 
   .more_infos p {
@@ -730,7 +907,7 @@ hr {
   }
 
   .top-bar li a i {
-    padding-right: 19px;
+    padding-right: 1px;
   }
 
   .slider {
@@ -757,13 +934,17 @@ hr {
     font-size: 10px;
   }
 
+  .cards_6 {
+    margin: 0 70px !important;
+  }
+
   .cadrs {
-    width: 105% !important;
+    width: 115% !important;
     background-color: #f6fbfe;
   }
 
   .bg-info {
-    margin: 0 42px;
+    margin: 0;
   }
 
   .info {
@@ -895,7 +1076,7 @@ hr {
   }
 
   .top-bar li a i {
-    padding-right: 19px;
+    padding-right: 1px;
   }
 
   .slider {
@@ -988,7 +1169,7 @@ hr {
   }
 
   .more_infos .btn {
-    margin: 7% 37%;
+    margin: 2% 37%;
   }
 
   .more_infos p {
@@ -1064,7 +1245,7 @@ hr {
   }
 
   .top-bar li a i {
-    padding-right: 19px;
+    padding-right: 1px;
   }
 
   .slider {
@@ -1396,7 +1577,7 @@ hr {
     display: block;
     justify-content: none;
     align-items: center;
-    margin: 57px 175px;
+    margin: 57px 15px;
   }
 
   .navBar {
@@ -1412,11 +1593,11 @@ hr {
   }
 
   .bg-info {
-    grid-column-gap: c !important;
+    grid-column-gap: 10px !important;
   }
 
   .top-bar li a i {
-    padding-right: 19px;
+    padding-right: 1px;
   }
 
   .slider {
@@ -1424,7 +1605,7 @@ hr {
     justify-content: space-between;
     align-items: center;
     z-index: 10;
-    margin: 16px 338px;
+    margin: 16px 200px;
   }
 
   .part_one {
@@ -1432,15 +1613,19 @@ hr {
     color: #fff;
     width: 400%;
     height: 286px;
-    font-size: 37px;
+    font-size: 31px;
     padding: 47px 139px;
     font-family: Light;
   }
 
   .part_tow {
     width: 400%;
-    height: 286px;
+    height: 429px;
     font-size: 19px;
+  }
+
+  .cadrs {
+    padding: 0px;
   }
 
   .cadrs {
@@ -1453,7 +1638,7 @@ hr {
   }
 
   .cards_6 {
-    margin: 0 254px !important;
+    margin: 43px 168px !important;
   }
 
   .info {
@@ -1465,7 +1650,7 @@ hr {
   }
 
   .price {
-    padding: 40px 453px !important;
+    padding: 56px 384px !important;
   }
 
   #description {
@@ -1509,7 +1694,7 @@ hr {
   }
 
   .more_infos .btn {
-    margin: 7% 38%;
+    margin: 3% 38%;
   }
 
   .more_infos p {
@@ -1551,7 +1736,7 @@ hr {
   }
 
   .multi_offre {
-    margin: 74px 533px !important;
+    margin: 74px 475px !important;
   }
 
   .footer_infos {
@@ -1568,181 +1753,192 @@ hr {
     padding: 50px 251px;
   }
 }
-.bg-info {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 183px;
-  grid-row-gap: 1em;
-  /*margin: 96px 0;*/
-}
+@media screen and (max-width: 192px) {
+  .logo {
+    /* margin-left: 49px; */
+    padding: 0px 199px;
+    text-align: center;
+  }
 
-.reli {
-  padding: 85px 0 0 320px;
-}
+  header {
+    display: block;
+    justify-content: none;
+    align-items: center;
+    margin: 57px 0px;
+  }
 
-.cadrs {
-  background-color: #f6fbfe;
-  padding: 26px;
-}
+  .navBar {
+    padding-left: none;
+    text-align: none;
+    padding: 47px 0 0 195px;
+  }
 
-/*.bg-info{
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    padding: 0px 180px;
+  .bg-info {
+    grid-column-gap: 10px !important;
+  }
 
-}*/
-.bloc_one img {
-  padding: 60px 51px;
-}
+  .top-bar li a i {
+    padding-right: 19px;
+  }
 
-.description {
-  background-color: #f6fbfe;
-  width: 100%;
-  height: 498px;
-  font-size: 54px;
-  padding: 75px 150px;
-  font-family: Light;
-}
+  .slider {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    margin: 16px 160px;
+  }
 
-.more_infos {
-  background-color: rgb(0, 58, 93);
-  width: 100%;
-  height: 330px;
-  color: #fff;
-  font-size: 32px;
-  font-family: myFirstFont;
-}
+  .part_one {
+    background-color: rgb(0, 58, 93);
+    color: #fff;
+    width: 400%;
+    height: 286px;
+    font-size: 24px;
+    padding: 47px 139px;
+    font-family: Light;
+  }
 
-.more_infos p {
-  padding-top: 70px;
-  text-align: center;
-  line-height: 1.5;
-}
+  .part_tow {
+    width: 400%;
+    height: 286px;
+    font-size: 13px;
+  }
 
-/************************************* Pricing ***********************************/
-.multi_offre {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 75px 143px;
-}
+  .cadrs {
+    padding: 0px;
+  }
 
-.bar-hot {
-  width: 300px;
-  height: 61px;
-  background-color: rgb(0, 58, 93);
-  position: absolute;
-  padding: -6px;
-  margin-top: -46px;
-  margin-left: 30px;
-  margin-bottom: 48px;
-  z-index: -12;
-  border-top-left-radius: 10px 10px;
-  border-top-right-radius: 10px 10px;
-  color: #fff;
-  font-size: 22px;
-  font-family: bolde;
-  text-align: center;
-  line-height: 2;
-  letter-spacing: 3px;
-}
+  .cadrs {
+    width: 400% !important;
+    background-color: #f6fbfe;
+  }
 
-.offre_one {
-  background: #fff;
-  height: 653px;
-  width: 360px;
-  border-radius: 0.8rem;
-  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
-}
+  .bg-info {
+    margin: 0 !important;
+  }
 
-.shadaow {
-  background: #fff;
-  height: auto;
-  width: 360px;
-  border-radius: 0.8rem;
-  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
-}
+  .cards_6 {
+    margin: 43px 62px !important;
+  }
 
-h1 {
-  font-size: 70px;
-  font-family: Light;
-  color: rgb(0, 58, 93);
-}
+  .info {
+    padding: 0px 0;
+  }
 
-.tlile_pricing {
-  font-size: 32px;
-  color: rgb(0, 58, 93);
-  font-family: myFirstFont;
-  text-align: center;
-  margin: 30px auto;
-}
+  .info p {
+    font-size: 12px;
+  }
 
-h2 {
-  color: rgb(0, 58, 93);
-  font-family: bolde;
-  font-size: 70px;
-  text-align: center;
-  padding: 15px 0;
-}
+  .price {
+    padding: 24px 248px !important;
+  }
 
-h2 i {
-  font-size: 25px;
-  font-family: bolde;
-  padding-bottom: 15px;
-}
+  #description {
+    background-color: #f6fbfe;
+    width: 400% !important;
+    height: 344px;
+    font-size: 27px;
+    padding: 32px 150px;
+    font-family: Light;
+  }
 
-.month {
-  font-size: 20px;
-  font-family: bolde;
-}
+  .bloc_one {
+    padding: 0 20px;
+    margin-bottom: 38px;
+  }
 
-.dollar {
-  font-size: 22px;
-  font-family: myFirstFont;
-  color: rgb(73, 73, 73);
-  text-align: center;
-}
+  .icon {
+    padding: 93px 20px 54px 99px;
+    width: 326px;
+    height: auto;
+  }
 
-#tage {
-  font-size: 21px;
-  font-family: myFirstFont;
-  color: rgb(73, 73, 73);
-  text-align: center;
-  line-height: 0px;
-}
+  .reli {
+    padding: 33px 0px 0px 111px !important;
+    width: 341px !important;
+    height: auto;
+  }
 
-.detalis {
-  font-size: 17px;
-  font-family: myFirstFont;
-  line-height: 1.8;
-  color: rgb(73, 73, 73);
-  margin: 20px;
-}
+  .cadr {
+    margin: 20px;
+  }
 
-.liste {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  font-size: 17px;
-  font-family: myFirstFont;
-  line-height: 1.8;
-  color: rgb(73, 73, 73);
-  margin: 20px;
-}
+  .fa-circle-user {
+    font-size: 25px;
+  }
 
-.liste li i {
-  align-items: start;
-  padding: 8px 0;
-  font-size: 17px;
-  color: rgb(0, 58, 93);
-}
+  li .login {
+    border: none;
+    padding: none;
+    border-radius: 50px;
+  }
 
-.smbo {
-  display: inline-block;
-  position: absolute;
-  margin-top: -24px;
-  margin-left: -24px;
-  width: 24px;
-  height: 26px;
+  .more_infos .btn {
+    margin: 3% 28%;
+  }
+
+  .more_infos p {
+    font-size: 21px;
+  }
+
+  .more_infos {
+    height: 280px;
+    width: 400% !important;
+  }
+
+  #name {
+    display: none;
+  }
+
+  .bloc_one, .bg-color {
+    background-color: #f6fbfe;
+    padding: 50px 50px;
+  }
+
+  .bar-footer p {
+    width: none !important;
+  }
+
+  .title {
+    margin-left: 5px !important;
+  }
+
+  .image_slider {
+    margin-left: -59px !important;
+  }
+
+  h1 {
+    font-size: 50px !important;
+  }
+
+  .footer_infos {
+    width: 457% !important;
+  }
+
+  .multi_offre {
+    margin: 74px 351px !important;
+  }
+
+  .footer_infos {
+    width: 400% !important;
+    height: 597px;
+  }
+
+  .bar-footer p {
+    padding: 27px 257px;
+  }
+
+  .content_footer {
+    display: block;
+    padding: 50px 251px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
